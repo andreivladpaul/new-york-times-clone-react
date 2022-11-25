@@ -1,0 +1,19 @@
+img {
+    max-width: 800px;
+}
+ul {
+    li {
+        display: inline;
+        margin: 80px 20px;
+    }
+}
+.list-element {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(103, 103, 103);
+        text-decoration: underline;
+    }
+}
